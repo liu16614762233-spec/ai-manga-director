@@ -104,6 +104,13 @@ Use AI Manga Director. Generate a Seedance-style 15-second image-to-video prompt
 Use AI Manga Director. Review this sample and suggest the smallest rework that preserves the current shot.
 ```
 
+## Learn By Example
+
+- [Quickstart](docs/quickstart.md)
+- [Mini project example](examples/mini-project/)
+- [Chinese README](README.zh-CN.md)
+- [Changelog](CHANGELOG.md)
+
 ## Example Workflow
 
 ```mermaid
