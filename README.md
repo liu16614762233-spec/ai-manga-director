@@ -4,6 +4,8 @@ AI Manga Director is a universal agent workflow pack for turning scripts into ga
 
 It is not a prompt dump and it is not tied to one AI app. It is a production system that can be used with Custom GPTs, Claude-style Skills, Codex Skills, Gemini/Grok-style agents, local agent frameworks, or any assistant that can read Markdown instructions.
 
+![AI Manga Director workflow preview](docs/assets/ai-manga-director-preview.svg)
+
 ## Why This Is Different
 
 Most AI video workflows fail because they jump from story directly to a long prompt. This skill adds the missing production layer:
