@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AI Manga Director promotional preview</title>
+  <desc id="desc">A cinematic product preview showing script, gates, director blocking, reference images, and video prompt workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070A12"/>
+      <stop offset="0.48" stop-color="#101526"/>
+      <stop offset="1" stop-color="#070A12"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FACC15"/>
+      <stop offset="1" stop-color="#FB923C"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="25%" cy="18%" r="58%">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="82%" cy="30%" r="42%">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .muted { fill: #AAB4C8; }
+      .text { fill: #F1F5F9; }
+      .line { stroke: #334155; stroke-width: 1.2; }
+      .card { fill: rgba(15, 23, 42, 0.78); stroke: rgba(148, 163, 184, 0.22); stroke-width: 1.3; }
+      .chip { fill: rgba(124, 58, 237, 0.16); stroke: rgba(167, 139, 250, 0.42); stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glowA)"/>
+  <rect width="1600" height="900" fill="url(#glowB)"/>
+
+  <g opacity="0.16">
+    <path d="M0 760 C180 690 285 760 432 690 C590 615 680 720 832 644 C1014 554 1130 630 1298 548 C1436 481 1507 500 1600 462" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+    <path d="M0 798 C222 722 304 830 512 724 C690 633 815 762 986 666 C1164 566 1330 595 1600 501" fill="none" stroke="#22D3EE" stroke-width="1.3"/>
+  </g>
+
+  <g class="sans">
+    <text x="90" y="108" fill="#C4B5FD" font-size="22" font-weight="700" letter-spacing="3">UNIVERSAL AGENT WORKFLOW PACK</text>
+    <text x="90" y="188" class="text" font-size="72" font-weight="850" letter-spacing="-1.5">AI Manga Director</text>
+    <text x="92" y="238" class="muted" font-size="25">From script to gated cinematic AI video production.</text>
+  </g>
+
+  <g transform="translate(90 298)" filter="url(#shadow)">
+    <rect class="card" x="0" y="0" width="420" height="420" rx="20"/>
+    <text class="sans text" x="28" y="48" font-size="23" font-weight="800">Project Gate</text>
+    <text class="mono muted" x="28" y="88" font-size="17">Status: DRAFT</text>
+    <text class="mono" x="28" y="124" fill="#34D399" font-size="17">Gate: character + scene required</text>
+    <line class="line" x1="28" y1="154" x2="392" y2="154"/>
+    <g transform="translate(28 184)">
+      <rect class="chip" x="0" y="0" width="160" height="38" rx="19"/>
+      <text class="sans text" x="18" y="25" font-size="15" font-weight="700">Script facts</text>
+      <rect class="chip" x="184" y="0" width="172" height="38" rx="19"/>
+      <text class="sans text" x="202" y="25" font-size="15" font-weight="700">Asset gates</text>
+      <rect class="chip" x="0" y="58" width="205" height="38" rx="19"/>
+      <text class="sans text" x="18" y="83" font-size="15" font-weight="700">Continuity ledger</text>
+      <rect class="chip" x="228" y="58" width="128" height="38" rx="19"/>
+      <text class="sans text" x="246" y="83" font-size="15" font-weight="700">Review</text>
+    </g>
+    <text class="mono muted" x="28" y="334" font-size="16">Next action:</text>
+    <text class="mono text" x="28" y="364" font-size="16">Generate minimum asset plan</text>
+  </g>
+
+  <g transform="translate(590 250)" filter="url(#shadow)">
+    <rect class="card" x="0" y="0" width="460" height="520" rx="24"/>
+    <text class="sans text" x="30" y="52" font-size="25" font-weight="850">Director Blocking</text>
+    <g transform="translate(30 88)">
+      <rect x="0" y="0" width="400" height="225" rx="14" fill="#0B1020" stroke="#334155"/>
+      <rect x="22" y="24" width="108" height="158" rx="10" fill="#1E293B"/>
+      <circle cx="76" cy="78" r="28" fill="url(#violet)" opacity="0.9"/>
+      <rect x="48" y="112" width="56" height="55" rx="18" fill="#64748B"/>
+      <path d="M172 172 C228 122 272 126 343 72" fill="none" stroke="#22D3EE" stroke-width="5" stroke-linecap="round"/>
+      <path d="M335 66 l28 4 -17 22" fill="none" stroke="#22D3EE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="318" cy="78" r="44" fill="none" stroke="#FACC15" stroke-width="3" opacity="0.75"/>
+      <path d="M38 200 H362" stroke="#475569" stroke-width="1"/>
+    </g>
+    <g class="sans" transform="translate(30 350)">
+      <text class="muted" x="0" y="0" font-size="16">0-5s</text>
+      <text class="text" x="66" y="0" font-size="16" font-weight="700">establish subject and space</text>
+      <text class="muted" x="0" y="38" font-size="16">5-10s</text>
+      <text class="text" x="66" y="38" font-size="16" font-weight="700">focus shift and action beat</text>
+      <text class="muted" x="0" y="76" font-size="16">10-15s</text>
+      <text class="text" x="66" y="76" font-size="16" font-weight="700">end hold and sound bridge</text>
+    </g>
+  </g>
+
+  <g transform="translate(1120 156)" filter="url(#shadow)">
+    <rect class="card" x="0" y="0" width="388" height="628" rx="24"/>
+    <text class="sans text" x="28" y="50" font-size="24" font-weight="850">Reference Logic</text>
+    <g transform="translate(28 84)">
+      <rect x="0" y="0" width="150" height="150" rx="14" fill="#111827" stroke="#334155"/>
+      <circle cx="75" cy="58" r="28" fill="#CBD5E1"/>
+      <rect x="45" y="92" width="60" height="34" rx="14" fill="#8B5CF6"/>
+      <text class="sans muted" x="176" y="38" font-size="15">Character board</text>
+      <text class="sans text" x="176" y="66" font-size="15" font-weight="700">Locks identity</text>
+      <text class="sans text" x="176" y="94" font-size="15" font-weight="700">Never replaces scene</text>
+    </g>
+    <g transform="translate(28 264)">
+      <rect x="0" y="0" width="150" height="150" rx="14" fill="#111827" stroke="#334155"/>
+      <path d="M20 112 C55 45 98 135 130 52" fill="none" stroke="#22D3EE" stroke-width="5"/>
+      <rect x="18" y="88" width="112" height="36" rx="8" fill="#14532D" opacity="0.8"/>
+      <text class="sans muted" x="176" y="38" font-size="15">Scene master</text>
+      <text class="sans text" x="176" y="66" font-size="15" font-weight="700">Locks geography</text>
+      <text class="sans text" x="176" y="94" font-size="15" font-weight="700">Controls layout</text>
+    </g>
+    <g transform="translate(28 444)">
+      <rect x="0" y="0" width="150" height="150" rx="14" fill="#111827" stroke="#334155"/>
+      <path d="M26 118 L124 32" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="124" cy="32" r="16" fill="#FACC15" filter="url(#softGlow)"/>
+      <text class="sans muted" x="176" y="38" font-size="15">Control image</text>
+      <text class="sans text" x="176" y="66" font-size="15" font-weight="700">Guides motion</text>
+      <text class="sans text" x="176" y="94" font-size="15" font-weight="700">Not final art</text>
+    </g>
+  </g>
+
+  <g class="sans" transform="translate(90 790)">
+    <rect x="0" y="0" width="1420" height="52" rx="26" fill="rgba(255,255,255,0.06)" stroke="rgba(148,163,184,0.18)"/>
+    <text x="30" y="34" fill="#CBD5E1" font-size="18">Script</text>
+    <text x="178" y="34" fill="#64748B" font-size="22">→</text>
+    <text x="235" y="34" fill="#CBD5E1" font-size="18">Gates</text>
+    <text x="374" y="34" fill="#64748B" font-size="22">→</text>
+    <text x="430" y="34" fill="#CBD5E1" font-size="18">Blocking</text>
+    <text x="604" y="34" fill="#64748B" font-size="22">→</text>
+    <text x="660" y="34" fill="#CBD5E1" font-size="18">Assets</text>
+    <text x="806" y="34" fill="#64748B" font-size="22">→</text>
+    <text x="860" y="34" fill="#CBD5E1" font-size="18">Video Prompt</text>
+    <text x="1080" y="34" fill="#64748B" font-size="22">→</text>
+    <text x="1134" y="34" fill="#CBD5E1" font-size="18">Review & Rework</text>
+  </g>
+</svg>
