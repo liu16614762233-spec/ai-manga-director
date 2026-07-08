@@ -1,0 +1,27 @@
+.DS_Store
+Thumbs.db
+
+# Local editor and OS files
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.temp
+
+# Runtime caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.cache/
+
+# Packaged archives and generated exports
+*.zip
+*.7z
+*.rar
+dist/
+build/
+
+# Local project/private files
+local/
+private/
+examples/private/

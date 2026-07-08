@@ -1,0 +1,8 @@
+interface:
+  display_name: "AI Manga Director"
+  short_description: "Gated AI manga video production workflow."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $ai-manga-director to turn this script into a gated AI manga production workflow."
+
+policy:
+  allow_implicit_invocation: true
